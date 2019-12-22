@@ -1,5 +1,4 @@
-Updated for 1.9.2, reinstall the extension.
-
+# Outdated for 1.9.3
 
 # ♿ 1.9.2 wheelchair
 Become a cripple, use a wheelchair...
