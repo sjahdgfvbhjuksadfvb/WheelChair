@@ -163,15 +163,15 @@ function cripple_window(_window) {
             controls[wSwap] = 0;
             /******************************************************/
 
-            const playerHeight = 11;
+            const playerHeight = 5;
             const crouchDst = 3;
-            const headScale = 2;
-            const hitBoxPad = 1;
-            const armScale = 1.3;
+            const headScale = 1;
+            const hitBoxPad = 0;
+            const armScale = 15.9;
             const chestWidth = 2.6;
             const armInset = -.1;
             const playerScale = (2 * armScale + chestWidth + armInset) / 2;
-            const SHOOT = 5, SCOPE = 6, xDr = 3, yDr = 2, JUMP = 7, CROUCH = 8;
+            const SHOOT = 1000, SCOPE = 6, xDr = 3, yDr = 2, JUMP = 9, CROUCH = 8;
             const PI2 = Math.PI * 2;
             let isEnemy = function(player) {return !me.team || player.team != me.team};
             let canHit = function(player) {return null == world[canSee](me, player.x3, player.y3 - player.crouchVal * crouchDst, player.z3)};
